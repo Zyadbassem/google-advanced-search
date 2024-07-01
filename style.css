@@ -61,3 +61,91 @@ header {
     font-size: 25px;
     font-weight: 400;
 }
+
+h2 {
+    padding-top: 30px;
+    padding-left: 60px;
+    color: rgb(228, 144, 134);
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+form {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-of-form {
+    padding-left: 60px;
+    width: 50%;
+}
+
+.input-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form-header {
+    color: white;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.input-div p {
+    width: 30%;
+    color: #969ba1;
+    font-size: 12px;
+}
+
+input {
+    width: 70%;
+    height: 25px;
+    border-radius: 2px;
+    background-color: transparent;
+    border: 1px solid #969ba19e;
+    font-size: medium;
+    color: white;
+}
+
+input:focus {
+    outline-style: solid;
+    outline-color: rgb(84, 84, 242);
+    outline-width: 1px;
+}
+
+.small-input {
+    width: 32%;
+}
+
+span {
+    color: white;
+    font-size: 12px;
+}
+
+section {
+    display: flex;
+    gap: 20px;
+}
+
+.right-of-form {
+    width: 50%;
+
+}
+
+.right-of-form .input-div {
+    width: 100%
+}
+
+.right-of-form .input-div p {
+    color: #969ba1;
+    width: 70%;
+    margin-bottom: 12px;
+}
