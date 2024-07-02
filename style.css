@@ -80,8 +80,13 @@ form {
 }
 
 .left-of-form {
-    padding-left: 60px;
-    width: 50%;
+    padding-left: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+
 }
 
 .input-div {
@@ -89,40 +94,67 @@ form {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
     margin-bottom: 20px;
 }
 
-.form-header {
-    color: white;
-    font-size: 15px;
-    padding-bottom: 20px;
-}
 
-.input-div p {
+
+
+.input-div p:not(.form-header) {
+    margin-right: auto;
     width: 30%;
     color: #969ba1;
     font-size: 12px;
+    text-align: start;
+    margin-left: 10px;
+}
+
+.form-header {
+    margin-right: 15%;
+    width: 30%;
+    color: white;
+    font-size: 15px;
+    text-align: start;
+    margin-left: 10px;
 }
 
 input {
-    width: 70%;
+    width: 80%;
     height: 25px;
     border-radius: 2px;
     background-color: transparent;
     border: 1px solid #969ba19e;
     font-size: medium;
     color: white;
+    appearance: auto;
+    -webkit-appearance: none;
 }
 
-input:focus {
+.right-part-of-input {
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+
+.right-part-of-input p {
+    width: 10%;
+}
+
+input:focus,
+select:focus {
     outline-style: solid;
     outline-color: rgb(84, 84, 242);
     outline-width: 1px;
 }
 
-.small-input {
-    width: 32%;
+.small-input1 {
+    width: 35%;
+    margin-right: 2.5%;
+}
+
+.small-input2 {
+    width: 35%;
+    margin-left: 2.5%;
 }
 
 span {
@@ -132,20 +164,24 @@ span {
 
 section {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     gap: 20px;
 }
 
-.right-of-form {
-    width: 50%;
-
-}
-
-.right-of-form .input-div {
-    width: 100%
-}
 
 .right-of-form .input-div p {
     color: #969ba1;
+    margin: 5px 0;
     width: 70%;
-    margin-bottom: 12px;
+}
+
+select,
+select option {
+    width: 70%;
+    font-size: small;
+}
+
+#hiddenitem {
+    display: none;
 }
