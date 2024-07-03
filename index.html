@@ -21,7 +21,7 @@
     </header>
     <h2>Advanced Search</h2>
     <form>
-        <section>
+        <section class="section1">
             <div class="left-of-form">
                 <div class="input-div">
                     <p class="form-header">Find pages with...</p>
@@ -65,113 +65,148 @@
                             £300..£500,
                             2010..2011</span></p>
                 </div>
-                <!--</section>
+        </section>
         <section>
             <div class="left-of-form">
-                <p class="form-header">Then narrow your results by...</p>
                 <div class="input-div">
-                    <p>language:</p>
-                    <select>
-                        <option value=""> Arabic</option>
-                        <option value=""> English</option>
-                        <option value=""> French</option>
-                        <option value=""> germany</option>
-                        <option value=""> chinese</option>
-                        <option value=""> italy</option>
-                        <option value=""> spanish</option>
-                        <option value=""> latiny</option>
-                        <option value=""> czeck</option>
-                        <option value=""> فارسي</option>
-                        <option value=""> عبري</option>
-                    </select>
+                    <p class="form-header">Then narrow your results by...</p>
                 </div>
                 <div class="input-div">
-                    <p>region:</p>
-                    <select>
-                        <option value=""> Egypt</option>
-                        <option value=""> USA</option>
-                        <option value=""> UAE</option>
-                        <option value=""> KSA</option>
-                        <option value=""> Ruissa</option>
-                        <option value=""> italy</option>
-                        <option value=""> Spain</option>
-                        <option value=""> Brazil</option>
-                        <option value=""> czeck</option>
-                        <option value=""> Israel</option>
-                        <option value=""> India</option>
-                    </select>
-                </div>
-                <div class="input-div">
-                    <p>last update:</p>
-                    <select>
-                        <option value=""> 24 hours</option>
-                        <option value=""> week</option>
-                        <option value=""> month</option>
-                        <option value=""> year</option>
-                    </select>
-                </div>
-                <div class="input-div">
-                    <p>site or domain:</p>
-                    <input>
-                </div>
-                <div class="input-div">
-                    <p>terms appering:</p>
-                    <select>
-                        <option value=""> anywhere</option>
-                        <option value=""> title</option>
-                        <option value=""> text</option>
-                        <option value=""> url</option>
-                    </select>
-                </div>
-                <div class="input-div">
-                    <p>file type:</p>
-                    <select>
-                        <option value=""> any format</option>
-                        <option value=""> .pdf</option>
-                        <option value=""> .word</option>
-                        <option value=""> .excel</option>
-                    </select>
-                </div>
-                <div class="input-div">
-                    <a>
-                        <p>usage rights</p>
-                    </a>
-                    <select>
-                        <option value=""> no licence</option>
-                        <option value=""> free to share</option>
-                        <option value=""> free to edit</option>
-                    </select>
-                </div>
-            </div>
-            <div class="right-of-form">
-                <p id="hiddennitem" class="form-header" hidden>Find pages in the language that you select.</p>
-                <br>
-                <div class="input-div">
+                    <div class="right-part-of-input">
+                        <p>language:</p>
+                        <div class="select-wrapper">
+                            <select>
+                                <option value=""> Arabic</option>
+                                <option value=""> English</option>
+                                <option value=""> French</option>
+                                <option value=""> germany</option>
+                                <option value=""> chinese</option>
+                                <option value=""> italy</option>
+                                <option value=""> spanish</option>
+                                <option value=""> latiny</option>
+                                <option value=""> czeck</option>
+                                <option value=""> فارسي</option>
+                                <option value=""> عبري</option>
+                            </select>
+                        </div>
+                    </div>
                     <p>Find pages in the language that you select.</p>
                 </div>
+
                 <div class="input-div">
+                    <div class="right-part-of-input">
+                        <p>region:</p>
+                        <div class="select-wrapper">
+                            <select>
+                                <option value=""> Egypt</option>
+                                <option value=""> USA</option>
+                                <option value=""> UAE</option>
+                                <option value=""> KSA</option>
+                                <option value=""> Ruissa</option>
+                                <option value=""> italy</option>
+                                <option value=""> Spain</option>
+                                <option value=""> Brazil</option>
+                                <option value=""> czeck</option>
+                                <option value=""> Israel</option>
+                                <option value=""> India</option>
+                            </select>
+                        </div>
+                    </div>
                     <p>Find pages published in a particular region.</p>
                 </div>
                 <div class="input-div">
+                    <div class="right-part-of-input">
+                        <p>last update:</p>
+                        <div class="select-wrapper">
+                            <select>
+                                <option value=""> 24 hours</option>
+                                <option value=""> week</option>
+                                <option value=""> month</option>
+                                <option value=""> year</option>
+                            </select>
+                        </div>
+                    </div>
                     <p>Find pages updated within the time that you specify.</p>
                 </div>
                 <div class="input-div">
-                    <p>Search one site (like wikipedia.org ) or limit your results to a domain like .edu, .org or
-                        .gov/span></p>
-                </div>
-                <div class="input-div">
+                    <div class="right-part-of-input">
+                        <p>site or domain:</p>
+                        <input>
+                    </div>
                     <p>Search for terms in the whole page, page title or web address, or links to the page you're
                         looking for.</p>
                 </div>
                 <div class="input-div">
+                    <div class="right-part-of-input">
+                        <p>terms appering:</p>
+                        <div class="select-wrapper">
+                            <select>
+                                <option value=""> anywhere</option>
+                                <option value=""> title</option>
+                                <option value=""> text</option>
+                                <option value=""> url</option>
+                            </select>
+                        </div>
+                    </div>
+                    <p>Search one site (like wikipedia.org ) or limit your results to a domain like .edu, .org or
+                        .gov</span></p>
+                </div>
+
+
+                <div class="input-div">
+                    <div class="right-part-of-input">
+                        <p>file type:</p>
+                        <div class="select-wrapper">
+                            <select>
+                                <option value=""> any format</option>
+                                <option value=""> .pdf</option>
+                                <option value=""> .word</option>
+                                <option value=""> .excel</option>
+                            </select>
+                        </div>
+                    </div>
                     <p>Find pages in the format that you prefer.</p>
                 </div>
                 <div class="input-div">
+                    <div class="right-part-of-input">
+                        <p><a href="/">usage rights</a></p>
+                        <div class="select-wrapper">
+                            <select>
+                                <option value=""> no licence</option>
+                                <option value=""> free to share</option>
+                                <option value=""> free to edit</option>
+                            </select>
+                        </div>
+                    </div>
                     <p>Find pages that you are free to use yourself.</p>
                 </div>
             </div>
-        </section>-->
+        </section>
+        <button>Advanced Search</button>
     </form>
+    <div class="be-footer">
+        <p class="be-footer-para">You can also...</p>
+        <a href="/">Find pages that are similar to a URL</a>
+        <a href="/">Search pages that you've visited</a>
+        <a href="/">Use operators in the search box</a>
+        <a href="/">Customise your search settings</a>
+    </div>
+    <footer>
+        <p>Egypt</p>
+        <div class="footer-con">
+            <div class="footer-links1">
+                <a href="">About</a>
+                <a href="">Advertising</a>
+                <a href="">Buisness</a>
+                <a href="">How Search works</a>
+            </div>
+            <div class="footer-links2">
+                <a href="">Privacy</a>
+                <a href="">Terms</a>
+                <a href="">Settings</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
